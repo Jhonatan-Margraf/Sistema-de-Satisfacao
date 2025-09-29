@@ -44,6 +44,26 @@ Além disso, nos inspiramos em sistemas reais como:
 
 ---
 
+## 📄 Documentação Acadêmica
+
+Este projeto inclui documentação acadêmica completa para apoiar publicações e apresentações:
+
+- **`RESUMO_EXPANDIDO_TEMPLATE.md`**: Template estruturado para o artigo acadêmico
+- **`DOCUMENTACAO_TECNICA.md`**: Especificações técnicas detalhadas da implementação
+- **`BIBLIOGRAFIA.md`**: Referências atualizadas e palavras-chave para citação
+- **`Sistema de Satisfação da Cantina.pdf`**: Artigo acadêmico (Resumo Expandido)
+
+### Tecnologias Utilizadas
+
+- **BERT Multilíngue**: `nlptown/bert-base-multilingual-uncased-sentiment`
+- **Python 3.12**: Linguagem de programação principal
+- **Transformers (Hugging Face)**: Framework para modelos de NLP
+- **Pandas**: Manipulação de dados estruturados
+- **GitHub Actions**: Automação de pipeline de processamento
+- **Power BI**: Visualização de dados e dashboards
+
+---
+
 ## 📬 Contato
 
 Em caso de dúvidas ou sugestões, entre em contato com qualquer um dos discentes listados acima.
