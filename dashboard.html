@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sistema de Satisfação da Cantina</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>📊 Dashboard - Sistema de Satisfação da Cantina</h1>
+            <div class="header-actions">
+                <button onclick="atualizarDados()" class="btn-refresh">🔄 Atualizar</button>
+                <button onclick="exportarDados()" class="btn-export">📥 Exportar Dados</button>
+            </div>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">📝</div>
+                <div class="stat-content">
+                    <h3>Total de Respostas</h3>
+                    <div class="stat-number" id="total-respostas">0</div>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">⭐</div>
+                <div class="stat-content">
+                    <h3>Score Médio</h3>
+                    <div class="stat-number" id="score-medio">0.0</div>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">😊</div>
+                <div class="stat-content">
+                    <h3>Satisfação Geral</h3>
+                    <div class="stat-number" id="satisfacao-geral">-</div>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">👍</div>
+                <div class="stat-content">
+                    <h3>Recomendações</h3>
+                    <div class="stat-number" id="recomendacoes">0%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-container">
+                <h3>Distribuição de Satisfação</h3>
+                <canvas id="chart-satisfacao"></canvas>
+            </div>
+            
+            <div class="chart-container">
+                <h3>Avaliações por Categoria</h3>
+                <canvas id="chart-categorias"></canvas>
+            </div>
+            
+            <div class="chart-container">
+                <h3>Frequência de Uso da Cantina</h3>
+                <canvas id="chart-frequencia"></canvas>
+            </div>
+            
+            <div class="chart-container">
+                <h3>Evolução Temporal</h3>
+                <canvas id="chart-temporal"></canvas>
+            </div>
+        </div>
+
+        <div class="data-tables">
+            <div class="table-container">
+                <h3>Últimas Avaliações</h3>
+                <div class="table-wrapper">
+                    <table id="tabela-avaliacoes">
+                        <thead>
+                            <tr>
+                                <th>Data</th>
+                                <th>Turma</th>
+                                <th>Score</th>
+                                <th>Classificação</th>
+                                <th>Recomenda</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody-avaliacoes">
+                            <tr>
+                                <td colspan="6" class="loading">Carregando dados...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <h3>Comentários e Sugestões</h3>
+                <div class="comments-list" id="lista-comentarios">
+                    <div class="loading">Carregando comentários...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para visualizar detalhes -->
+    <div id="modal-detalhes" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Detalhes da Avaliação</h2>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
