@@ -15,7 +15,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install dependencies
-        run: pip install pandas requests transformers torch
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
       - name: Run script
         run: python atualizar_avaliacoes.py
       - name: Commit CSV
