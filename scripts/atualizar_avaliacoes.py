@@ -42,6 +42,6 @@ def atualizar_avaliacoes():
     df["model_score"] = scores
 
     # Salvar CSV atualizado
-    df.to_csv("avaliacoes.csv", index=False, sep=";")
+    df.to_csv("data/avaliacoes.csv", index=False, sep=";")
 
 atualizar_avaliacoes()
