@@ -24,4 +24,5 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add avaliacoes.csv
           git commit -m "Atualização diária CSV"
-          git push
+      - name: Push changes
+        run: git push https://x-access-token:${{ secrets.WK_TOKEN }}@github.com/Jhonatan-Margraf/Sistema-de-Satisfacao.git HEAD:main
