@@ -2,14 +2,19 @@ name: Atualizar Avaliacoes
 
 on:
   schedule:
-    - cron: '0 11 * * *'  # Atualiza todo dia às 08:00 BRT (11:00 UTC)
+    - cron: '0 11 * * *' # Atualiza todo dia às 08:00 BRT (11:00 UTC)
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   atualizar:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -17,12 +22,11 @@ jobs:
       - name: Install dependencies
         run: pip install pandas requests transformers torch
       - name: Run script
-        run: python atualizar_avaliacoes.py
+        run: python scripts/atualizar_avaliacoes.py
       - name: Commit CSV
         run: |
-          git config --local user.email "you@example.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add avaliacoes.csv
-          git commit -m "Atualização diária CSV"
-      - name: Push changes
-        run: git push https://x-access-token:${{ secrets.WK_TOKEN }}@github.com/Jhonatan-Margraf/Sistema-de-Satisfacao.git HEAD:main
+          git commit -m "Atualização diária CSV" || echo "Sem alterações para commitar"
+          git push
