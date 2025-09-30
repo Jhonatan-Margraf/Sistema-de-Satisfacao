@@ -1,1 +1,222 @@
-
+ID;Cantina;Higiene;Preços;Atendimento;Comentários;Data da Avaliação;IP Usuário;bert_label;model_score
+221;Cantina Charles Darwin;4;2;3;TEm alguns funcionários que trabalham ao contrário, ou seja, não trabalham (com vontade).;2025-09-25 19:01:08;200.150.74.254;NEG;2
+220;Adriano Chagas Burguer;4;3;5;;2025-09-02 12:13:06;200.150.74.254;;
+219;Adriano Chagas Burguer;5;4;5;O Adriano é super gente boa e a comida é de alta qualidade;2025-09-02 12:11:36;169.197.140.238;POS;5
+218;Delícias Gurmet;5;3;5;;2025-09-02 12:10:45;200.150.74.254;;
+217;Cantina Charles Darwin;5;2;4;caro;2025-09-02 12:10:17;200.150.74.254;NEU;3
+216;Adriano Chagas Burguer;5;4;5;;2025-09-02 12:09:45;200.150.74.254;;
+215;Delícias Gurmet;5;3;5;;2025-09-02 12:07:57;200.150.74.254;;
+214;Cantina Charles Darwin;5;2;4;;2025-09-02 12:06:31;200.150.74.254;;
+213;Adriano Chagas Burguer;5;4;5;;2025-09-02 12:05:35;200.150.74.254;;
+212;Adriano Chagas Burguer;4;4;5;Lanches muito bons e preços que valem a pena;2025-09-02 10:07:53;200.150.74.254;POS;5
+211;Adriano Chagas Burguer;4;3;4;;2025-09-01 18:25:01;187.86.58.49;;
+210;Cantina Charles Darwin;4;3;4;;2025-09-01 11:02:11;189.113.55.175;;
+209;Delícias Gurmet;5;4;5;;2025-08-29 21:29:09;200.150.74.254;;
+208;Delícias Gurmet;5;4;5;;2025-08-29 20:39:46;104.28.63.138;;
+207;Delícias Gurmet;5;3;5;O shawarma é delicioso e o churros também, e um preço agradável.;2025-08-29 18:45:38;200.150.74.254;POS;4
+206;Adriano Chagas Burguer;4;4;4;;2025-08-29 18:18:31;200.150.74.254;;
+205;Delícias Gurmet;4;3;5;;2025-08-29 18:18:12;200.150.74.254;;
+204;Delícias Gurmet;5;3;5;Tudo muito bom;2025-08-29 13:58:38;189.40.71.11;POS;5
+203;Delícias Gurmet;5;4;5;;2025-08-29 09:26:11;38.91.107.57;;
+202;Delícias Gurmet;4;3;5;;2025-08-28 22:04:25;200.150.74.254;;
+201;Adriano Chagas Burguer;4;3;5;O Adriano é espetacular sempre tentando inovar.;2025-08-28 22:04:01;200.150.74.254;POS;5
+200;Cantina Charles Darwin;3;1;4;Os preços só sobem os produtos não tem uma regularidade ( as vezes tem as vezes não tem);2025-08-28 22:02:59;200.150.74.254;NEG;2
+199;Adriano Chagas Burguer;4;4;5;;2025-08-28 21:45:51;200.150.74.254;;
+198;Delícias Gurmet;5;3;5;;2025-08-28 21:40:32;177.30.180.149;;
+197;Cantina Charles Darwin;5;4;5;Maravilhoso atendimento, recepção incrível! Os alimentos são excelentes, gosto maravilhoso e sempre tudo muito limpo, nada a reclamar. Tudo muuuito bom;2025-08-28 21:35:15;200.150.74.254;POS;5
+196;Delícias Gurmet;5;3;5;;2025-08-28 21:32:10;177.51.117.45;;
+195;Adriano Chagas Burguer;5;4;5;Amo o Chico ;2025-08-28 21:07:34;38.91.106.248;POS;5
+194;Cantina Charles Darwin;4;2;4;Produtos vivem alterando o preço, e aumentou ainda mais por causa das outras bancas. ;2025-08-28 21:03:13;200.150.74.254;NEG;2
+193;Delícias Gurmet;5;3;5;O que faltava para completar, melhorou. O que um nao tem, o outro tem.;2025-08-28 21:01:47;200.150.74.254;NEU;3
+192;Adriano Chagas Burguer;5;3;5;Parceiro atende super bem. ;2025-08-28 20:59:13;177.51.116.108;POS;5
+191;Delícias Gurmet;5;3;5;;2025-08-28 20:58:25;191.201.52.62;;
+190;Adriano Chagas Burguer;5;5;5;Chico é massa demais ;2025-08-28 20:58:07;177.51.117.153;NEU;3
+189;Adriano Chagas Burguer;5;5;5;;2025-08-28 20:56:46;191.201.24.213;;
+188;Adriano Chagas Burguer;5;3;5;o melhor de todos ;2025-08-28 20:49:03;200.150.74.254;POS;5
+187;Cantina Charles Darwin;4;3;3;;2025-08-28 20:48:17;177.30.178.191;;
+186;Delícias Gurmet;5;3;4;;2025-08-28 20:47:53;177.51.201.170;;
+185;Delícias Gurmet;4;3;4;;2025-08-28 20:41:31;200.173.206.188;;
+184;Adriano Chagas Burguer;4;3;5;;2025-08-28 20:41:09;200.173.206.188;;
+183;Cantina Charles Darwin;4;2;3;;2025-08-28 20:40:54;200.173.206.188;;
+182;Delícias Gurmet;3;2;4;Lanches muitos bom ;2025-08-28 20:34:27;187.25.154.30;POS;4
+181;Adriano Chagas Burguer;3;3;3;Só tem que olhar os pedidos no celular ;2025-08-28 20:34:02;187.25.154.30;NEG;1
+180;Cantina Charles Darwin;3;2;2;;2025-08-28 20:33:24;187.25.154.30;;
+179;Cantina Charles Darwin;4;3;4;;2025-08-28 20:30:00;177.51.117.23;;
+178;Delícias Gurmet;5;2;4;;2025-08-28 20:29:31;177.51.117.23;;
+177;Adriano Chagas Burguer;4;3;4;;2025-08-28 20:28:29;177.51.117.23;;
+176;Delícias Gurmet;5;3;5;;2025-08-28 20:26:32;200.150.74.254;;
+175;Delícias Gurmet;5;3;5;Tudo gostoso ;2025-08-28 20:25:47;191.201.33.53;POS;5
+174;Cantina Charles Darwin;4;2;3;Produtos caros, não mantém aquecido (esquentam no microondas) ;2025-08-28 20:25:30;191.201.33.53;NEG;1
+173;Cantina Charles Darwin;4;2;3;;2025-08-28 20:24:36;185.177.126.127;;
+172;Adriano Chagas Burguer;4;4;5;;2025-08-28 20:23:56;185.177.126.127;;
+171;Adriano Chagas Burguer;5;3;5;Adriano é sensacional ;2025-08-28 20:23:11;200.150.74.254;POS;5
+170;Delícias Gurmet;5;3;3;;2025-08-28 20:22:56;185.177.126.127;;
+169;Adriano Chagas Burguer;3;3;4;;2025-08-28 18:59:28;200.173.197.174;;
+168;Cantina Charles Darwin;4;3;4;;2025-08-28 18:59:07;200.173.197.174;;
+167;Delícias Gurmet;5;3;5;;2025-08-28 18:58:20;187.25.141.4;;
+166;Delícias Gurmet;5;5;5;;2025-08-28 18:55:49;200.173.197.174;;
+165;Cantina Charles Darwin;4;2;5;;2025-08-28 18:48:42;200.150.74.254;;
+164;Adriano Chagas Burguer;5;3;5;;2025-08-28 18:48:00;200.150.74.254;;
+163;Cantina Charles Darwin;3;2;4;Ao meu ver a cantina é muito importante para um regimento institucional, mas os valores devem ser mais baixos, mais condizentes e afins. E PRINCIPALMENTE acho que deveria apresentar mais opcoes saudaveis, sem ser apenas assados e salgados, coisas mais naturais, até vender maça, banana, sainduiche de frango.;2025-08-28 14:06:01;200.150.74.254;NEU;3
+162;Cantina Charles Darwin;4;3;3;Atendente não conhecia o pingado médio!;2025-08-28 11:57:12;200.150.74.254;NEG;1
+161;Cantina Charles Darwin;4;3;5;;2025-08-28 11:53:56;200.150.74.254;;
+160;Cantina Charles Darwin;4;3;4;;2025-08-28 11:53:43;200.150.74.254;;
+159;Delícias Gurmet;4;2;4;;2025-08-28 09:24:18;38.91.106.248;;
+158;Adriano Chagas Burguer;4;3;4;;2025-08-28 09:23:38;38.91.106.248;;
+157;Adriano Chagas Burguer;2;3;4;;2025-08-27 10:46:10;187.19.101.226;;
+156;Cantina Charles Darwin;5;2;4;;2025-08-27 10:45:55;187.19.101.226;;
+155;Delícias Gurmet;4;3;5;;2025-08-27 10:45:41;187.19.101.226;;
+154;Adriano Chagas Burguer;5;3;5;;2025-08-27 07:44:46;186.226.49.74;;
+153;Adriano Chagas Burguer;4;3;4;Lanche dele é muito bom, os sacolés também;2025-08-26 19:09:14;200.150.74.254;POS;5
+152;Cantina Charles Darwin;4;2;3;Nada a declarar;2025-08-26 19:08:36;200.150.74.254;NEG;1
+151;Cantina Charles Darwin;3;2;5;Cheira mal;2025-08-26 17:52:41;181.214.131.56;NEG;1
+150;Cantina Charles Darwin;4;2;4;;2025-08-26 17:22:11;191.219.38.204;;
+149;Adriano Chagas Burguer;5;4;5;;2025-08-26 15:50:49;138.186.233.69;;
+148;Cantina Charles Darwin;4;3;5;;2025-08-26 15:50:22;138.186.233.69;;
+147;Adriano Chagas Burguer;5;3;5;;2025-08-26 11:59:34;200.150.74.254;;
+146;Cantina Charles Darwin;4;2;4;Possui um bom atendimento, com variedade de alimentos, porém os preços praticados são caros.;2025-08-26 10:57:17;200.150.74.254;NEU;3
+145;Adriano Chagas Burguer;4;3;5;Excelente atendimento, com preço justo, porém possui poucas opções. ;2025-08-26 10:55:40;200.150.74.254;POS;4
+144;Delícias Gurmet;4;2;3;;2025-08-26 09:34:52;200.150.74.254;;
+143;Adriano Chagas Burguer;4;3;4;;2025-08-26 09:34:36;200.150.74.254;;
+142;Cantina Charles Darwin;2;1;2;;2025-08-26 09:34:20;200.150.74.254;;
+141;Cantina Charles Darwin;4;3;4;;2025-08-26 08:29:08;200.150.74.254;;
+140;Adriano Chagas Burguer;4;5;5;;2025-08-26 08:28:43;200.150.74.254;;
+139;Delícias Gurmet;5;4;5;Excelente atendimento e comidas maravilhosas.;2025-08-26 08:28:02;200.150.74.254;POS;5
+138;Cantina Charles Darwin;4;1;4;Ja comi salgados meio azedas ;2025-08-26 08:10:37;200.150.74.254;NEG;1
+137;Adriano Chagas Burguer;5;3;5;Muito bom;2025-08-26 08:10:06;200.150.74.254;POS;5
+136;Delícias Gurmet;4;2;5;;2025-08-26 08:06:04;200.150.74.254;;
+135;Cantina Charles Darwin;2;2;4;;2025-08-26 08:05:40;200.150.74.254;;
+134;Cantina Charles Darwin;4;1;3;Poderia ter preços mais acessíveis, como um kit de comida que sacia com preço mais barato ;2025-08-26 07:57:18;200.150.74.254;NEU;3
+133;Adriano Chagas Burguer;5;3;5;;2025-08-26 07:05:05;186.194.152.178;;
+132;Cantina Charles Darwin;5;2;4;;2025-08-26 07:04:53;186.194.152.178;;
+131;Cantina Charles Darwin;4;2;3;Nenhum comentário ????;2025-08-25 23:06:15;45.71.140.209;NEG;1
+130;Cantina Charles Darwin;4;1;3;;2025-08-25 23:04:08;45.71.140.193;;
+129;Delícias Gurmet;4;3;4;;2025-08-25 22:43:45;189.113.53.139;;
+128;Adriano Chagas Burguer;3;3;4;;2025-08-25 22:43:23;189.113.53.139;;
+127;Cantina Charles Darwin;3;2;4;;2025-08-25 22:43:02;189.113.53.139;;
+126;Adriano Chagas Burguer;4;3;5;;2025-08-25 22:35:22;186.251.144.160;;
+125;Delícias Gurmet;5;3;5;;2025-08-25 22:04:22;200.150.74.254;;
+124;Cantina Charles Darwin;4;3;4;;2025-08-25 22:00:46;200.150.74.254;;
+123;Adriano Chagas Burguer;5;3;5;;2025-08-25 21:54:12;200.150.74.254;;
+122;Cantina Charles Darwin;4;2;3;;2025-08-25 21:48:53;45.71.142.16;;
+121;Cantina Charles Darwin;5;3;4;;2025-08-25 21:46:28;186.194.152.191;;
+120;Cantina Charles Darwin;4;2;3;Aumentem o tempo do microondas quando forem esquentar, muitas vezes o salgado ainda estava congelado.;2025-08-25 21:38:58;200.150.74.254;NEG;2
+119;Cantina Charles Darwin;3;3;4;Falta de produtos;2025-08-25 21:29:12;200.150.74.254;NEG;1
+118;Adriano Chagas Burguer;2;2;2;Melhorar a higiane;2025-08-25 21:25:37;;POS;4
+117;Cantina Charles Darwin;4;2;4;;2025-08-25 21:19:22;;;
+116;Cantina Charles Darwin;3;1;3;;2025-08-25 21:19:09;;;
+115;Delícias Gurmet;4;2;4;;2025-08-25 21:18:58;;;
+114;Adriano Chagas Burguer;4;3;4;;2025-08-25 21:18:33;;;
+113;Adriano Chagas Burguer;4;3;4;;2025-08-25 21:02:19;;;
+112;Cantina Charles Darwin;3;2;3;alimentos muitas vezes que passou da validade (salgados), secos ou até mesmo azedo;2025-08-25 21:02:03;;NEG;2
+111;Delícias Gurmet;4;3;4;;2025-08-25 21:01:13;;;
+110;Adriano Chagas Burguer;5;2;5;;2025-08-25 21:00:37;;;
+109;Delícias Gurmet;4;2;4;;2025-08-25 20:59:46;;;
+108;Delícias Gurmet;5;3;4;;2025-08-25 20:53:44;;;
+107;Adriano Chagas Burguer;5;4;4;;2025-08-25 20:53:29;;;
+106;Cantina Charles Darwin;5;2;3;;2025-08-25 20:53:12;;;
+105;Adriano Chagas Burguer;4;3;4;;2025-08-25 20:43:04;;;
+104;Adriano Chagas Burguer;4;3;5;;2025-08-25 20:42:58;;;
+103;Adriano Chagas Burguer;5;3;4;Lanches são muito bons ;2025-08-25 20:42:42;;POS;5
+102;Adriano Chagas Burguer;5;3;4;;2025-08-25 20:42:10;;;
+101;Adriano Chagas Burguer;4;3;5;;2025-08-25 20:41:55;;;
+100;Adriano Chagas Burguer;4;3;5;;2025-08-25 20:40:41;;;
+99;Delícias Gurmet;5;1;4;;2025-08-25 20:40:25;;;
+98;Cantina Charles Darwin;4;2;3;;2025-08-25 20:40:07;;;
+97;Cantina Charles Darwin;2;2;1;;2025-08-25 20:32:39;;;
+96;Adriano Chagas Burguer;4;3;4;;2025-08-25 20:30:37;;;
+95;Cantina Charles Darwin;3;1;4;;2025-08-25 20:30:22;;;
+94;Delícias Gurmet;5;3;5;;2025-08-25 20:30:10;;;
+93;Delícias Gurmet;4;3;4;;2025-08-25 20:29:44;;;
+92;Cantina Charles Darwin;2;2;3;;2025-08-25 20:29:23;;;
+91;Adriano Chagas Burguer;3;3;4;;2025-08-25 20:29:06;;;
+90;Cantina Charles Darwin;4;2;3;;2025-08-25 20:27:47;;;
+89;Delícias Gurmet;3;3;5;;2025-08-25 20:27:00;;;
+88;Adriano Chagas Burguer;4;3;4;;2025-08-25 20:26:47;;;
+87;Cantina Charles Darwin;4;3;4;;2025-08-25 20:26:31;;;
+86;Delícias Gurmet;4;2;4;;2025-08-25 20:22:35;;;
+85;Adriano Chagas Burguer;5;3;5;;2025-08-25 20:22:17;;;
+84;Cantina Charles Darwin;4;2;3;;2025-08-25 20:22:01;;;
+83;Delícias Gurmet;5;3;5;muito boa a comida e acho um preço justo pelo o que entregam, adoro comer ali e aceitam vale alimentação também, show;2025-08-25 20:19:08;;POS;5
+82;Adriano Chagas Burguer;5;3;5;ótimos preços e comida boa;2025-08-25 20:18:16;;POS;4
+81;Delícias Gurmet;5;1;4;;2025-08-25 20:17:58;;;
+80;Adriano Chagas Burguer;4;3;5;Ótimo atendimento,  produtos de qualidade, saborosos por um preço muito justo, o melhor de todos ;2025-08-25 20:17:54;;POS;5
+79;Delícias Gurmet;4;3;5;;2025-08-25 20:17:51;;;
+78;Cantina Charles Darwin;4;1;4;;2025-08-25 20:17:43;;;
+77;Adriano Chagas Burguer;3;4;5;;2025-08-25 20:17:32;;;
+76;Adriano Chagas Burguer;4;2;5;;2025-08-25 20:17:27;;;
+75;Cantina Charles Darwin;4;2;5;;2025-08-25 20:17:13;;;
+74;Delícias Gurmet;3;1;4;;2025-08-25 20:17:11;;;
+73;Cantina Charles Darwin;3;1;3;Produtos muito caro e qualidade baixa ;2025-08-25 20:16:43;;NEG;2
+72;Cantina Charles Darwin;5;3;4;Demora um pouco pra ficar pronto;2025-08-25 20:16:40;;NEU;3
+71;Adriano Chagas Burguer;4;4;5;;2025-08-25 20:16:31;;;
+70;Delícias Gurmet;4;3;4;;2025-08-25 20:16:12;;;
+69;Cantina Charles Darwin;5;3;4;;2025-08-25 20:16:07;;;
+68;Cantina Charles Darwin;4;2;2;;2025-08-25 20:15:59;;;
+67;Delícias Gurmet;3;3;2;;2025-08-25 20:15:52;;;
+66;Adriano Chagas Burguer;4;4;5;;2025-08-25 20:15:44;;;
+65;Cantina Charles Darwin;3;1;2;;2025-08-25 20:15:43;;;
+63;Adriano Chagas Burguer;4;4;5;;2025-08-25 20:15:42;;;
+64;Delícias Gurmet;3;1;2;;2025-08-25 20:15:42;;;
+62;Adriano Chagas Burguer;5;3;5;;2025-08-25 20:15:34;;;
+61;Cantina Charles Darwin;4;2;3;;2025-08-25 20:15:32;;;
+60;Cantina Charles Darwin;4;2;5;;2025-08-25 20:15:23;;;
+59;Adriano Chagas Burguer;4;3;5;;2025-08-25 20:15:20;;;
+58;Delícias Gurmet;5;3;5;gosto muito, lanche bem recheiudo e bom preço ;2025-08-25 20:14:42;;POS;5
+56;Adriano Chagas Burguer;5;5;5;A melhor;2025-08-25 20:14:37;;POS;5
+57;Delícias Gurmet;5;2;5;é bom, mas tem pouco variedade de lanches, os que tem são muito caros;2025-08-25 20:14:37;;NEU;3
+55;Adriano Chagas Burguer;5;3;5;ele é um querido e os lanches dele são ótimos, preços super acessíveis ;2025-08-25 20:14:12;;POS;5
+54;Cantina Charles Darwin;4;2;4;eu gosto das comidas, só é ruim que o preço aumenta cada vez mais kkk;2025-08-25 20:14:09;;NEU;3
+53;Delícias Gurmet;4;3;5;;2025-08-25 20:14:02;;;
+52;Adriano Chagas Burguer;4;3;5;Muito bom os lanches, além disso o valor é bem acessível, gosto pq tem bastante variedade ;2025-08-25 20:13:43;;POS;4
+51;Cantina Charles Darwin;3;1;3;preços absurdos, visto que uma PAÇOCA está 4 REAIS. lanches muitas vezes bem congelados ou até mesmo crus, demora no atendimento e o preço realmente é muito alto, já paguei 17 reais uma fatia de torta de frango.;2025-08-25 20:13:36;;NEG;1
+50;Cantina Charles Darwin;4;2;4;;2025-08-25 20:13:30;;;
+49;Adriano Chagas Burguer;4;3;5;;2025-08-25 20:13:28;;;
+48;Delícias Gurmet;4;3;4;;2025-08-25 20:13:14;;;
+47;Adriano Chagas Burguer;3;3;5;;2025-08-25 20:13:07;;;
+46;Cantina Charles Darwin;4;2;4;;2025-08-25 20:12:59;;;
+45;Cantina Charles Darwin;4;3;4;Faltam opções para vegetarianos .;2025-08-25 20:12:51;;NEG;2
+44;Cantina Charles Darwin;3;1;3;Os lanches, vem toda vez gelado, por mais que vamos duas vezes esquentar, os valores são muito altos, por coisas pequenas, acaba que não compensa ;2025-08-25 20:12:45;;NEG;2
+43;Delícias Gurmet;5;3;4;;2025-08-25 20:12:30;;;
+42;Delícias Gurmet;5;2;4;;2025-08-25 20:12:16;;;
+41;Cantina Charles Darwin;5;1;4;;2025-08-25 20:12:01;;;
+40;Adriano Chagas Burguer;5;3;5;;2025-08-25 20:11:43;;;
+39;Cantina Charles Darwin;3;3;3;Legal diversicar o cardapio;2025-08-25 20:11:10;;NEG;1
+38;Delícias Gurmet;1;1;1;Lanche caro e ruim, esquentado no microondas;2025-08-25 20:10:56;;NEG;2
+37;Adriano Chagas Burguer;5;5;5;O melhor sem duvidas, Adriano tem anos de experiencia!;2025-08-25 20:10:31;;POS;5
+36;Adriano Chagas Burguer;5;3;4;;2025-08-25 20:09:28;;;
+35;Cantina Charles Darwin;3;2;4;rwtgdgffd;2025-08-25 20:06:44;;NEU;3
+34;Cantina Charles Darwin;4;3;4;;2025-08-25 20:05:31;;;
+33;Delícias Gurmet;4;2;4;;2025-08-25 20:05:30;;;
+32;Delícias Gurmet;4;3;4;top sharamene deles;2025-08-25 20:04:55;;POS;5
+31;Adriano Chagas Burguer;4;3;4;;2025-08-25 20:04:31;;;
+30;Adriano Chagas Burguer;5;5;5;Delicia de alimento;2025-08-25 20:04:29;;POS;5
+29;Adriano Chagas Burguer;4;3;4;Excelente atendimento.;2025-08-25 20:04:25;;POS;5
+28;Adriano Chagas Burguer;4;4;4;Top é espetinho;2025-08-25 20:04:07;;POS;5
+26;Cantina Charles Darwin;4;3;4;;2025-08-25 20:04:06;;;
+27;Cantina Charles Darwin;5;2;3;;2025-08-25 20:04:06;;;
+25;Adriano Chagas Burguer;5;4;5;;2025-08-25 20:03:46;;;
+24;Delícias Gurmet;4;3;4;Excelente atendimento, rápido, ágil.;2025-08-25 20:03:43;;POS;5
+23;Cantina Charles Darwin;4;2;3;;2025-08-25 20:01:38;;;
+22;Adriano Chagas Burguer;5;3;4;;2025-08-25 20:00:42;;;
+21;Delícias Gurmet;4;3;4;;2025-08-25 20:00:11;;;
+20;Cantina Charles Darwin;3;1;1;;2025-08-25 19:59:59;;;
+19;Adriano Chagas Burguer;4;3;4;;2025-08-25 19:59:58;;;
+18;Adriano Chagas Burguer;5;5;5;;2025-08-25 19:59:41;;;
+17;Cantina Charles Darwin;4;2;4;Poderia melhorar na questão do valor pois na cidade 1 halls esta 1,50 Na cantina se encontra a 3,00 reais;2025-08-25 19:58:23;;NEG;2
+16;Cantina Charles Darwin;5;2;3;;2025-08-25 19:56:56;;;
+15;Adriano Chagas Burguer;5;5;5;MELHOR DE TODOS ;2025-08-25 19:56:47;;POS;5
+14;Cantina Charles Darwin;5;1;4;;2025-08-25 19:56:27;;;
+13;Cantina Charles Darwin;4;1;3;;2025-08-25 19:56:03;;;
+12;Adriano Chagas Burguer;4;2;5;;2025-08-25 19:55:48;;;
+11;Cantina Charles Darwin;5;3;5;Excelente atendimento, salgados e doces bem feitos e bem preparados;2025-08-25 19:54:05;;POS;5
+10;Delícias Gurmet;1;1;1;;2025-08-25 19:52:20;;;
+9;Cantina Charles Darwin;1;1;1;;2025-08-25 19:52:13;;;
+8;Delícias Gurmet;3;2;3;;2025-08-25 19:52:11;;;
+7;Adriano Chagas Burguer;5;5;5;CHICO TEM QUE COMPRAR TODAS AS LANCHONETES DO BIOPARK;2025-08-25 19:52:05;;NEG;1
+6;Adriano Chagas Burguer;4;3;5;;2025-08-25 19:52:01;;;
+5;Cantina Charles Darwin;4;2;4;;2025-08-25 19:51:47;;;
+4;Cantina Charles Darwin;2;2;4;O atendimento foi bom mas a comida estava ruim sem variabilidade de escolha também ;2025-08-25 18:48:26;;NEU;3
+3;Delícias Gurmet;5;3;4;;2025-08-25 18:28:02;;;
+2;Adriano Chagas Burguer;3;2;2;;2025-08-25 18:27:46;;;
+1;Cantina Charles Darwin;4;3;4;Esta faltando produtos com frequência;2025-08-25 18:27:26;;NEG;2
