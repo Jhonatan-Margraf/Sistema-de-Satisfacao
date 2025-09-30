@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add avaliacoes.csv
+          git add data/avaliacoes.csv
           git commit -m "Atualização diária CSV" || echo "Sem alterações para commitar"
           git push
