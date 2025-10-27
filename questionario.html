@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Satisfação da Cantina - Questionário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Sistema de Satisfação da Cantina</h1>
+            <p>Sua opinião é muito importante para melhorarmos nossos serviços!</p>
+        </header>
+
+        <form id="questionario-form">
+            <!-- Seção 1: Informações Gerais -->
+            <section class="form-section">
+                <h2>🏫 Informações Gerais</h2>
+                
+                <div class="form-group">
+                    <label for="turma">Turma/Série:</label>
+                    <select id="turma" name="turma" required>
+                        <option value="">Selecione sua turma</option>
+                        <option value="1ano">1º Ano</option>
+                        <option value="2ano">2º Ano</option>
+                        <option value="3ano">3º Ano</option>
+                        <option value="ensino-medio">Ensino Médio</option>
+                        <option value="professor">Professor</option>
+                        <option value="funcionario">Funcionário</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="frequencia">Com que frequência você utiliza a cantina?</label>
+                    <select id="frequencia" name="frequencia" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="diariamente">Diariamente</option>
+                        <option value="algumas-vezes-semana">Algumas vezes por semana</option>
+                        <option value="raramente">Raramente</option>
+                        <option value="primeira-vez">É a primeira vez</option>
+                    </select>
+                </div>
+            </section>
+
+            <!-- Seção 2: Avaliação da Qualidade dos Alimentos -->
+            <section class="form-section">
+                <h2>🍽️ Qualidade dos Alimentos</h2>
+                
+                <div class="form-group">
+                    <label>Como você avalia o sabor dos alimentos?</label>
+                    <div class="rating-group">
+                        <input type="radio" id="sabor-1" name="sabor" value="1" required>
+                        <label for="sabor-1">1 - Muito ruim</label>
+                        <input type="radio" id="sabor-2" name="sabor" value="2">
+                        <label for="sabor-2">2 - Ruim</label>
+                        <input type="radio" id="sabor-3" name="sabor" value="3">
+                        <label for="sabor-3">3 - Regular</label>
+                        <input type="radio" id="sabor-4" name="sabor" value="4">
+                        <label for="sabor-4">4 - Bom</label>
+                        <input type="radio" id="sabor-5" name="sabor" value="5">
+                        <label for="sabor-5">5 - Excelente</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Como você avalia a qualidade/frescor dos alimentos?</label>
+                    <div class="rating-group">
+                        <input type="radio" id="qualidade-1" name="qualidade" value="1" required>
+                        <label for="qualidade-1">1 - Muito ruim</label>
+                        <input type="radio" id="qualidade-2" name="qualidade" value="2">
+                        <label for="qualidade-2">2 - Ruim</label>
+                        <input type="radio" id="qualidade-3" name="qualidade" value="3">
+                        <label for="qualidade-3">3 - Regular</label>
+                        <input type="radio" id="qualidade-4" name="qualidade" value="4">
+                        <label for="qualidade-4">4 - Bom</label>
+                        <input type="radio" id="qualidade-5" name="qualidade" value="5">
+                        <label for="qualidade-5">5 - Excelente</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Como você avalia a variedade do cardápio?</label>
+                    <div class="rating-group">
+                        <input type="radio" id="variedade-1" name="variedade" value="1" required>
+                        <label for="variedade-1">1 - Muito limitada</label>
+                        <input type="radio" id="variedade-2" name="variedade" value="2">
+                        <label for="variedade-2">2 - Limitada</label>
+                        <input type="radio" id="variedade-3" name="variedade" value="3">
+                        <label for="variedade-3">3 - Regular</label>
+                        <input type="radio" id="variedade-4" name="variedade" value="4">
+                        <label for="variedade-4">4 - Boa</label>
+                        <input type="radio" id="variedade-5" name="variedade" value="5">
+                        <label for="variedade-5">5 - Excelente</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção 3: Atendimento e Serviço -->
+            <section class="form-section">
+                <h2>👥 Atendimento e Serviço</h2>
+                
+                <div class="form-group">
+                    <label>Como você avalia o atendimento dos funcionários?</label>
+                    <div class="rating-group">
+                        <input type="radio" id="atendimento-1" name="atendimento" value="1" required>
+                        <label for="atendimento-1">1 - Muito ruim</label>
+                        <input type="radio" id="atendimento-2" name="atendimento" value="2">
+                        <label for="atendimento-2">2 - Ruim</label>
+                        <input type="radio" id="atendimento-3" name="atendimento" value="3">
+                        <label for="atendimento-3">3 - Regular</label>
+                        <input type="radio" id="atendimento-4" name="atendimento" value="4">
+                        <label for="atendimento-4">4 - Bom</label>
+                        <input type="radio" id="atendimento-5" name="atendimento" value="5">
+                        <label for="atendimento-5">5 - Excelente</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Como você avalia o tempo de espera no atendimento?</label>
+                    <div class="rating-group">
+                        <input type="radio" id="tempo-1" name="tempo" value="1" required>
+                        <label for="tempo-1">1 - Muito demorado</label>
+                        <input type="radio" id="tempo-2" name="tempo" value="2">
+                        <label for="tempo-2">2 - Demorado</label>
+                        <input type="radio" id="tempo-3" name="tempo" value="3">
+                        <label for="tempo-3">3 - Regular</label>
+                        <input type="radio" id="tempo-4" name="tempo" value="4">
+                        <label for="tempo-4">4 - Rápido</label>
+                        <input type="radio" id="tempo-5" name="tempo" value="5">
+                        <label for="tempo-5">5 - Muito rápido</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção 4: Ambiente e Infraestrutura -->
+            <section class="form-section">
+                <h2>🏢 Ambiente e Infraestrutura</h2>
+                
+                <div class="form-group">
+                    <label>Como você avalia a limpeza da cantina?</label>
+                    <div class="rating-group">
+                        <input type="radio" id="limpeza-1" name="limpeza" value="1" required>
+                        <label for="limpeza-1">1 - Muito suja</label>
+                        <input type="radio" id="limpeza-2" name="limpeza" value="2">
+                        <label for="limpeza-2">2 - Suja</label>
+                        <input type="radio" id="limpeza-3" name="limpeza" value="3">
+                        <label for="limpeza-3">3 - Regular</label>
+                        <input type="radio" id="limpeza-4" name="limpeza" value="4">
+                        <label for="limpeza-4">4 - Limpa</label>
+                        <input type="radio" id="limpeza-5" name="limpeza" value="5">
+                        <label for="limpeza-5">5 - Muito limpa</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Como você avalia o espaço físico (mesas, cadeiras, ambiente)?</label>
+                    <div class="rating-group">
+                        <input type="radio" id="espaco-1" name="espaco" value="1" required>
+                        <label for="espaco-1">1 - Muito inadequado</label>
+                        <input type="radio" id="espaco-2" name="espaco" value="2">
+                        <label for="espaco-2">2 - Inadequado</label>
+                        <input type="radio" id="espaco-3" name="espaco" value="3">
+                        <label for="espaco-3">3 - Regular</label>
+                        <input type="radio" id="espaco-4" name="espaco" value="4">
+                        <label for="espaco-4">4 - Adequado</label>
+                        <input type="radio" id="espaco-5" name="espaco" value="5">
+                        <label for="espaco-5">5 - Excelente</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção 5: Preços -->
+            <section class="form-section">
+                <h2>💰 Preços</h2>
+                
+                <div class="form-group">
+                    <label>Como você avalia os preços praticados na cantina?</label>
+                    <div class="rating-group">
+                        <input type="radio" id="precos-1" name="precos" value="1" required>
+                        <label for="precos-1">1 - Muito caros</label>
+                        <input type="radio" id="precos-2" name="precos" value="2">
+                        <label for="precos-2">2 - Caros</label>
+                        <input type="radio" id="precos-3" name="precos" value="3">
+                        <label for="precos-3">3 - Justos</label>
+                        <input type="radio" id="precos-4" name="precos" value="4">
+                        <label for="precos-4">4 - Baratos</label>
+                        <input type="radio" id="precos-5" name="precos" value="5">
+                        <label for="precos-5">5 - Muito baratos</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção 6: Satisfação Geral -->
+            <section class="form-section">
+                <h2>⭐ Satisfação Geral</h2>
+                
+                <div class="form-group">
+                    <label>Qual sua satisfação geral com a cantina?</label>
+                    <div class="rating-group">
+                        <input type="radio" id="satisfacao-1" name="satisfacao" value="1" required>
+                        <label for="satisfacao-1">1 - Muito insatisfeito</label>
+                        <input type="radio" id="satisfacao-2" name="satisfacao" value="2">
+                        <label for="satisfacao-2">2 - Insatisfeito</label>
+                        <input type="radio" id="satisfacao-3" name="satisfacao" value="3">
+                        <label for="satisfacao-3">3 - Neutro</label>
+                        <input type="radio" id="satisfacao-4" name="satisfacao" value="4">
+                        <label for="satisfacao-4">4 - Satisfeito</label>
+                        <input type="radio" id="satisfacao-5" name="satisfacao" value="5">
+                        <label for="satisfacao-5">5 - Muito satisfeito</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Você recomendaria a cantina para outros alunos?</label>
+                    <div class="rating-group">
+                        <input type="radio" id="recomendacao-sim" name="recomendacao" value="sim" required>
+                        <label for="recomendacao-sim">Sim</label>
+                        <input type="radio" id="recomendacao-nao" name="recomendacao" value="nao">
+                        <label for="recomendacao-nao">Não</label>
+                        <input type="radio" id="recomendacao-talvez" name="recomendacao" value="talvez">
+                        <label for="recomendacao-talvez">Talvez</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção 7: Sugestões e Comentários -->
+            <section class="form-section">
+                <h2>💬 Sugestões e Comentários</h2>
+                
+                <div class="form-group">
+                    <label for="sugestoes">Que melhorias você sugere para a cantina?</label>
+                    <textarea id="sugestoes" name="sugestoes" rows="4" placeholder="Compartilhe suas sugestões para melhorarmos nossos serviços..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="comentarios">Comentários adicionais:</label>
+                    <textarea id="comentarios" name="comentarios" rows="4" placeholder="Deixe aqui qualquer comentário adicional..."></textarea>
+                </div>
+            </section>
+
+            <!-- Seção 8: Opções de Identificação -->
+            <section class="form-section">
+                <h2>🔒 Identificação (Opcional)</h2>
+                
+                <div class="form-group">
+                    <input type="checkbox" id="anonimo" name="anonimo" checked>
+                    <label for="anonimo">Desejo manter minha avaliação anônima</label>
+                </div>
+
+                <div class="form-group" id="identificacao-group" style="display: none;">
+                    <label for="nome">Nome (opcional):</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome">
+                    
+                    <label for="email">E-mail (opcional):</label>
+                    <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com">
+                </div>
+            </section>
+
+            <button type="submit" class="submit-btn">📤 Enviar Avaliação</button>
+        </form>
+    </div>
+
+    <script src="questionario.js"></script>
+</body>
+</html>
